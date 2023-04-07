@@ -269,6 +269,9 @@ body {
   margin-bottom: 10px;
   font-size: 28px;
   text-align: center;
+  }
+.footer__photo a {
+  text-decoration: none;
 }
 .footer__list {
   list-style: none;
