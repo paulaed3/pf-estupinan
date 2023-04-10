@@ -35,6 +35,7 @@ body {
   text-decoration: none;
   color: #000;
   font-size: 28px;
+  font-weight: bold;
 }
 
 .menu__list {
@@ -58,8 +59,7 @@ body {
   color: #000;
   text-decoration: none;
   font-size: 15px;
-  font-weight: bold;
-}
+  }
 .menu__item:hover .submenu {
   display: block;
 }
@@ -129,7 +129,7 @@ body {
   padding: 80px 0;
   background-image: linear-gradient(to bottom, white, #f7d0ec);
 }
-/* Section products */
+/* Section offers */
 .products {
   display: block;
   margin: 50px auto;
@@ -165,10 +165,11 @@ body {
 }
 .product__button {
   margin-top: 20px;
-  padding: 5px 20px;
+  padding: 10px 12px;
   border: none;
   font-weight: bold;
   background-color: #fbcff5;
+  border-radius: 8px ;
   transition: background-color 0.3s ease, color 0.3s ease, transform 0.3s ease;
   -webkit-transition: background-color 0.3s ease, color 0.3s ease,
     transform 0.3s ease;
@@ -178,6 +179,7 @@ body {
     transform 0.3s ease;
   -o-transition: background-color 0.3s ease, color 0.3s ease,
     transform 0.3s ease;
+  font-size: 16px;
 }
 .product__button:hover {
   background-color: #000;
@@ -266,12 +268,16 @@ body {
 }
 .footer__photo {
   padding: 0;
-  margin-bottom: 10px;
-  font-size: 28px;
+  margin-bottom: 20px;
+  font-size: 30px;
   text-align: center;
+  font-weight: bold;
+  
+
   }
 .footer__photo a {
   text-decoration: none;
+  color: #000;
 }
 .footer__list {
   list-style: none;
@@ -280,14 +286,13 @@ body {
   display: inline-block;
 }
 .footer__item a {
-  margin: 0 10px;
+  margin: 20px 5px;
   text-decoration: none;
-  color: #ad22c3;
-  font-size: 15px;
-  font-weight: bold;
+  font-size: 17px;
+  color:#595959;
 }
 .footer_copyrigth {
-  margin: 10px 0;
+  margin: 20px 0;
   text-align: center;
 }
 /* Cart Page */
@@ -347,57 +352,8 @@ body {
   -ms-transform: scale(1.05);
   -o-transform: scale(1.05);
 }
-/* Contact Page */
-.contact__form {
-  margin: 40px auto 40px auto;
-  width: 800px;
-}
-.form__groups label {
-  display: block;
-  font-weight: bold;
-  margin: 10px 0;
-}
-.form__groups input {
-  width: 100%;
-  padding: 5px;
-  font-size: 16px;
-}
-.form__groups textarea {
-  width: 100%;
-  padding: 5px;
-  font-size: 16px;
-}
-.form__button {
-  display: block;
-  margin: 20px auto 0 auto;
-  font-size: 18px;
-  font-weight: bold;
-  background-color: #f9c6f2;
-  padding: 10px 45px;
-  border: none;
-  transition: background-color 0.3s ease, color 0.3s ease, transform 0.3s ease;
-  -webkit-transition: background-color 0.3s ease, color 0.3s ease,
-    transform 0.3s ease;
-  -moz-transition: background-color 0.3s ease, color 0.3s ease,
-    transform 0.3s ease;
-  -ms-transition: background-color 0.3s ease, color 0.3s ease,
-    transform 0.3s ease;
-  -o-transition: background-color 0.3s ease, color 0.3s ease,
-    transform 0.3s ease;
-}
-.form__button:hover{
-  background-color: #000;
-  color:  #f9c6f2;
-  transform: scale(1.05);
-  -webkit-transform: scale(1.05);
-  -moz-transform: scale(1.05);
-  -ms-transform: scale(1.05);
-  -o-transform: scale(1.05);
-}
-.map__contact {
-  margin: 60px 80px 80px 80px;
-  padding: 20px auto;
-}
+
+
 /* estilos custom con bootstrap */
 
 .btn-custom {
