@@ -422,7 +422,8 @@ body {
   -ms-transform: scale(1.05);
   -o-transform: scale(1.05);
 }
-.navbar-custom { 
+
+.navbar-custom {
   background-color: #f9c6f2;
 }
 
