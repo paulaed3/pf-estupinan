@@ -1,0 +1,40 @@
+/*IMPORTAR FUENTES*/
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;800&display=swap");
+/*********ESTILOS GENERALES***********/
+/*Reset css*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  margin: 0 auto;
+  overflow-x: hidden;
+}
+
+/* Variables */
+/* Section about */
+.about {
+  margin-top: 50px;
+  padding: 80px 0;
+  background-image: linear-gradient(to bottom, white, #f9c6f2);
+}
+
+/* Content */
+.content {
+  margin-top: 80px;
+}
+.content .subtitle {
+  margin-bottom: 10px;
+  font-size: 50px;
+  text-align: center;
+}
+.content .paragraph {
+  margin: 0 auto;
+  width: 60%;
+  font-size: 18px;
+  text-align: center;
+  line-height: 1.6em;
+}/*# sourceMappingURL=about.css.map */

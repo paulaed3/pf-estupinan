@@ -1,0 +1,42 @@
+/* Section Hero */
+.hero {
+  width: 100%;
+}
+.hero .hero__title {
+  text-align: center;
+  font-size: 64px;
+  margin-bottom: 20px;
+}
+.hero.hero__flex {
+  display: flex;
+  -moz-column-gap: 80px;
+       column-gap: 80px;
+  align-items: center;
+  padding: 0px 80px;
+}
+.hero.hero__flex .hero__title, .hero.hero__flex .subtitle, .hero.hero__flex .paragraph {
+  text-align: left;
+  width: 100%;
+  margin: 0;
+}
+@media screen and (max-width: 960px) {
+  .hero.hero__flex {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+.hero .hero__photo {
+  width: 20%;
+  display: block;
+  margin-right: 20px;
+}
+.hero .hero__banner {
+  width: 40%;
+}
+@media screen and (max-width: 960px) {
+  .hero .hero__banner {
+    width: 100%;
+    max-width: 600px;
+    margin-bottom: 30px;
+  }
+}/*# sourceMappingURL=hero.css.map */
