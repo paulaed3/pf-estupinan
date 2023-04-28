@@ -4,44 +4,111 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./css/index.css" />
     <title>ANIKAD</title>
+    <meta
+      name="description"
+      content="Encuentra ropa de segunda mano en nuestra tienda de moda circular. ¡Reduce, reutiliza y recicla! Tenemos una amplia selección de prendas únicas y asequibles para un estilo sostenible."
+    />
+    <meta
+      name="keywords"
+      content="Moda circular, estilo, reduce, reutiliza y recicla, ropa de segunda mano, prendas únicas, estilo sostenible"
+    />
+    <!--CDN Boostrap-->
+    <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
+    crossorigin="anonymous"
+  />
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+    crossorigin="anonymous"
+  ></script>
+    <link rel="stylesheet" href="./css/style.css" />
+    
   </head>
   <body>
-    <!-- Main menu -->
-    <header>
-      <nav class="menu">
-        <div class="menu__photo"><a href="./index.html">ANIKAD</a></div>
-        <ul class="menu__list">
-          <li class="menu__item">
-            <a href="./pages/products.html">Productos</a>
-            <ul class="submenu">
-              <li class="submenu__item"><a href="#">Camisas</a></li>
-              <li class="submenu__item"><a href="#">Vestidos y faldas</a></li>
-              <li class="submenu__item"><a href="#">Accesorios</a></li>
-              <li class="submenu__item"><a href="#">Zapatos</a></li>
-              <li class="submenu__item"><a href="#">Pantalones</a></li>
-              <li class="submenu__item"><a href="#">Deportivo</a></li>
-            </ul>
-          </li>
-          <li class="menu__item"><a href="./pages/offers.html">Ofertas</a></li>
-          <li class="menu__item"><a href="./pages/cart.html">Carrito</a></li>
-          <li class="menu__item"><a href="./pages/contact.html">Contacto</a></li>
-        </ul>
-      </nav>
-    </header>
+        <!-- Main menu -->
+        <header>
+          <header>
+            <nav
+              class="px-md-5 navbar navbar-expand-lg  navbar-custom"
+            >
+              <div class="container-fluid">
+                <a class="navbar-brand fw-bold fs-2" href="./index.html">ANIKAD</a>
+                <button
+                  class="navbar-toggler"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#navbarNavDropdown"
+                  aria-controls="navbarNavDropdown"
+                  aria-expanded="false"
+                  aria-label="Toggle navigation"
+                >
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div
+                  class="d-lg-flex justify-content-end collapse navbar-collapse"
+                  id="navbarNavDropdown"
+                >
+                  <ul class="navbar-nav ">
+                    <li class="nav-item">
+                      <a class="nav-link" aria-current="page" href="./index.html"
+                        >Inicio</a
+                      >
+                    </li>
+                    <li class="nav-item dropdown">
+                      <a
+                        class="nav-link dropdown-toggle"
+                        href="#"
+                        role="button"
+                        data-bs-toggle="dropdown"
+                        aria-expanded="false"
+                      >
+                        Productos
+                      </a>
+                      <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Camisas</a></li>
+                        <li><a class="dropdown-item" href="#">Vestidos y faldas</a></li>
+                        <li><a class="dropdown-item" href="#">Accesorios</a></li>
+                        <li><a class="dropdown-item" href="#">Zapatos</a></li>
+                        <li><a class="dropdown-item" href="#">Pantalones</a></li>
+                        <li><a class="dropdown-item" href="#">Deportivo</a></li>
+                        <li><a class="dropdown-item" href="./pages/products.html">Ver todos</a></li>
+                      </ul>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="./pages/offers.html">Ofertas</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="./pages/cart.html">Carrito</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="./pages/contact.html">Contacto</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </nav>
+          </header>
     <!-- Main Content -->
     <main class="content">
       <!-- Section hero -->
       <section class="hero hero__flex">
-        <img class="hero__banner" src="./img/banner.jpg" alt="" />
+        <img class="hero__banner" src="./img/Fotos index/marca.jpg" alt="apertura ANIKAD" />
         <div>
           <h1 class="hero__title">ANIKAD</h1>
           <h2 class="subtitle">Moda Circular</h2>
           <p class="paragraph">
-            Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut
-            fugit, sed quia consequuntur magni dolores eos qui ratione
-            voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem.
+            Somos una tienda online especializada en moda circular, donde
+            encontrarás una amplia selección de prendas de segunda mano con
+            estilo y de calidad. Nos apasiona la moda sostenible y creemos en el
+            poder de la moda circular para reducir el impacto ambiental de la
+            industria textil.Únete a nosotros en este emocionante viaje hacia un
+            estilo de vida más sostenible, mientras disfrutas de la moda
+            circular en su máxima expresión. ¡Descubre nuestras joyas de moda
+            circular y haz parte del movimiento de moda sostenible!
           </p>
         </div>
       </section>
@@ -49,12 +116,13 @@
       <section class="about">
         <h2 class="subtitle">Acerca de nosotros</h2>
         <p class="paragraph">
-          Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut
-          fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem
-          sequi nesciunt. Neque porro quisquam est, qui dolorem. Nemo enim ipsam
-          voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia
-          consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.
-          Neque porro quisquam est, qui dolorem.
+          Nos apasiona el poder de la moda para contar historias y expresar
+          nuestra identidad única. Cada prenda que vendemos en ANIKAD tiene su
+          propia historia y personalidad, y nos encanta ayudar a nuestros
+          clientes a encontrar piezas especiales que se adapten a su estilo y
+          valores. Nuestro equipo está compuesto por amantes de la moda y
+          defensores del medio ambiente, comprometidos con la promoción de la
+          moda sostenible y la creación de un impacto positivo en el mundo.
         </p>
       </section>
       <!-- Section about -->
@@ -62,27 +130,36 @@
         <h2 class="subtitle">Nuestro Proceso</h2>
         <div class="product__wrapper">
           <div class="product">
-            <h3 class="product__title">Proceso 1</h3>
-            <img class="product__image" src="./img/product.jpg" alt="" />
+            <h3 class="product__title">Selección</h3>
+            <img
+              class="product__image"
+              src="./img/Fotos index/Seleccionar.jpg"
+              alt="selección"
+            />
             <p class="paragraph product__paragraph">
-              Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit
-              aut fugit.
+              Seleccionamos prendas de segunda mano con estilo y calidad,
+              asegurándonos de que cumplan con nuestros criterios de
+              sostenibilidad.
             </p>
           </div>
           <div class="product">
-            <h3 class="product__title">Proceso 2</h3>
-            <img class="product__image" src="./img/product.jpg" alt="" />
+            <h3 class="product__title">Acondicionamiento</h3>
+            <img
+              class="product__image"
+              src="./img/Fotos index/reparar.jpg"
+              alt="reparaciones"
+            />
             <p class="paragraph product__paragraph">
-              Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit
-              aut fugit.
+              Limpiamos y reparamos las prendas de forma ecológica para
+              asegurarnos de que estén en óptimas condiciones.
             </p>
           </div>
           <div class="product">
-            <h3 class="product__title">Proceso 3</h3>
-            <img class="product__image" src="./img/product.jpg" alt="" />
+            <h3 class="product__title">Venta en línea</h3>
+            <img class="product__image" src="./img//Fotos index/venta.jpg" alt="venta" />
             <p class="paragraph product__paragraph">
-              Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit
-              aut fugit.
+              Ofrecemos las prendas en nuestra tienda en línea, brindando una
+              experiencia de compra fácil y segura a nuestros clientes.
             </p>
           </div>
         </div>
@@ -91,40 +168,34 @@
 
     <div class="banner">
       <div class="banner_1">
-        <img class="image_banner" src="./img/banner.jpg" alt="" />
-        <div>
-          <p class="">
-            Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut
-            fugit.
-          </p>
-        </div>
+        <img class="image_banner" src="./img/Fotos index/chaleco.jpg" alt="chaleco" />
       </div>
       <div class="banner_2">
-        <img class="image_banner" src="./img/banner.jpg" alt="" />
+        <img class="image_banner" src="./img/Fotos index/Mosaico.jpg" alt="ropa" />
       </div>
       <div class="banner_3">
-        <img class="image_banner" src="./img/banner.jpg" alt="" />
+        <img class="image_banner" src="./img/Fotos index/camisas.jpg" alt="camisas" />
       </div>
       <div class="banner_4">
-        <img class="image_banner" src="./img/banner.jpg" alt="" />
+        <img class="image_banner" src="./img/Fotos index/sacos.jpg" alt="saco de lana" />
       </div>
       <div class="banner_5">
-        <img class="image_banner" src="./img/banner.jpg" alt="" />
+        <img class="image_banner" src="./img/Fotos index/Ropabanner.jpg" alt="ropa" />
       </div>
       <div class="banner_6">
-        <img class="image_banner" src="./img/banner.jpg" alt="" />
+        <img class="image_banner" src="./img/Fotos index/jeans.jpg" alt="jeans" />
       </div>
       <div class="banner_7">
-        <img class="image_banner" src="./img/banner.jpg" alt="" />
+        <img class="image_banner" src="./img/Fotos index/camisanegra.jpg" alt="camisa" />
       </div>
       <div class="banner_8">
-        <img class="image_banner" src="./img/banner.jpg" alt="" />
+        <img class="image_banner" src="./img/Fotos index/zapatos bebe.jpg" alt="zapatos" />
       </div>
       <div class="banner_9">
-        <img class="image_banner" src="./img/banner.jpg" alt="" />
+        <img class="image_banner" src="./img/Fotos index/sacolana.jpg" alt="saco de lana" />
       </div>
       <div class="banner_10">
-        <img class="image_banner" src="./img/banner.jpg" alt="" />
+        <img class="image_banner" src="./img/Fotos index/zapatos.jpg" alt="zapato" />
       </div>
     </div>
     <!-- Footer -->
@@ -135,7 +206,9 @@
           <li class="footer__item">
             <a href="./pages/products.html">Productos</a>
           </li>
-          <li class="footer__item"><a href="./pages/offers.html">Ofertas</a></li>
+          <li class="footer__item">
+            <a href="./pages/offers.html">Ofertas</a>
+          </li>
           <li class="footer__item"><a href="./pages/cart.html">Carrito</a></li>
           <li class="footer__item">
             <a href="./pages/contact.html">Contacto</a>

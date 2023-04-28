@@ -1,0 +1,82 @@
+/* Section offers */
+.products {
+  display: block;
+  margin: 50px auto;
+  padding: 40px 0;
+  text-align: center;
+  max-width: 1400px;
+}
+
+/*offers styles*/
+.product__wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 40px;
+  
+    @media screen and (max-width: 960px) {
+      grid-template-columns: repeat(1, 1fr);
+    }
+  }
+  
+  .product {
+    margin: 20px auto 0px auto;
+  
+    & .product__image {
+      display: block;
+      margin: 30px auto 20px auto;
+      width: 250px;
+      height: 320px;
+      object-fit: cover;
+      object-position: top;
+      border-radius: 5%;
+  
+      &:hover {
+        box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px,
+          rgba(0, 0, 0, 0.23) 0px 3px 6px;
+      }
+    }
+  
+    & .paragraph .product__paragraph {
+      width: 55%;
+    }
+  
+    & .product__button {
+      margin-top: 20px;
+      padding: 10px 12px;
+      border: none;
+      font-weight: bold;
+      background-color: map-get($colores_botones, primary);;
+      border-radius: 8px;
+      transition: background-color 0.3s ease, color 0.3s ease, transform 0.3s ease;
+      -webkit-transition: background-color 0.3s ease, color 0.3s ease,
+        transform 0.3s ease;
+      -moz-transition: background-color 0.3s ease, color 0.3s ease,
+        transform 0.3s ease;
+      -ms-transition: background-color 0.3s ease, color 0.3s ease,
+        transform 0.3s ease;
+      -o-transition: background-color 0.3s ease, color 0.3s ease,
+        transform 0.3s ease;
+      font-size: 16px;
+  
+      &:hover {
+        background-color: #000;
+        color: map-get($colores_botones, primary);;
+        transform: scale(1.05);
+        -webkit-transform: scale(1.05);
+        -moz-transform: scale(1.05);
+        -ms-transform: scale(1.05);
+        -o-transform: scale(1.05);
+      }
+    }
+  }
+  @media screen and (max-width: 768px) {
+    .product {
+      & .product__image {
+        width: 80%;
+        max-width: 200px;
+      }
+      & .paragraph .product__paragraph {
+        width: 100%;
+      }
+    }
+  }

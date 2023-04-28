@@ -1,0 +1,44 @@
+/* Section Hero */
+.hero {
+  width: 100%;
+
+  & .hero__title {
+    text-align: center;
+    font-size: 64px;
+    margin-bottom: 20px;
+  }
+
+  &.hero__flex {
+    display: flex;
+    column-gap: 80px;
+    align-items: center;
+    padding: 0px 80px;
+    & .hero__title,
+    & .subtitle,
+    & .paragraph {
+      text-align: left;
+      width: 100%;
+      margin: 0;
+    }
+
+    @media screen and (max-width: 960px) {
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+  }
+
+  & .hero__photo {
+    width: 20%;
+    display: block;
+    margin-right: 20px;
+  }
+
+  & .hero__banner {
+    width: 40%;
+    @media screen and (max-width: 960px) {
+      width: 100%;
+      max-width: 600px;
+      margin-bottom: 30px;
+    }
+  }
+}
