@@ -19,23 +19,6 @@ body {
 }
 
 /* Variables */
-/* Content */
-.content {
-  margin-top: 80px;
-}
-.content .subtitle {
-  margin-bottom: 10px;
-  font-size: 50px;
-  text-align: center;
-}
-.content .paragraph {
-  margin: 0 auto;
-  width: 60%;
-  font-size: 18px;
-  text-align: center;
-  line-height: 1.6em;
-}
-
 /* Section Hero */
 .hero {
   width: 100%;
@@ -95,6 +78,13 @@ body {
 }
 
 /* Variables */
+/* Section about */
+.about {
+  margin-top: 50px;
+  padding: 80px 0;
+  background-image: linear-gradient(to bottom, white, #f9c6f2);
+}
+
 /* Content */
 .content {
   margin-top: 80px;
@@ -110,13 +100,6 @@ body {
   font-size: 18px;
   text-align: center;
   line-height: 1.6em;
-}
-
-/* Section about */
-.about {
-  margin-top: 50px;
-  padding: 80px 0;
-  background-image: linear-gradient(to bottom, white, #f9c6f2);
 }
 
 /* Section offers */
@@ -209,23 +192,6 @@ body {
 }
 
 /* Variables */
-/* Content */
-.content {
-  margin-top: 80px;
-}
-.content .subtitle {
-  margin-bottom: 10px;
-  font-size: 50px;
-  text-align: center;
-}
-.content .paragraph {
-  margin: 0 auto;
-  width: 60%;
-  font-size: 18px;
-  text-align: center;
-  line-height: 1.6em;
-}
-
 /* banner */
 .banner {
   display: grid;
@@ -350,23 +316,6 @@ body {
 }
 
 /* Variables */
-/* Content */
-.content {
-  margin-top: 80px;
-}
-.content .subtitle {
-  margin-bottom: 10px;
-  font-size: 50px;
-  text-align: center;
-}
-.content .paragraph {
-  margin: 0 auto;
-  width: 60%;
-  font-size: 18px;
-  text-align: center;
-  line-height: 1.6em;
-}
-
 /* Cart Page */
 .cart_products {
   margin: 40px auto 80px auto;
@@ -457,23 +406,6 @@ body {
 }
 
 /* Variables */
-/* Content */
-.content {
-  margin-top: 80px;
-}
-.content .subtitle {
-  margin-bottom: 10px;
-  font-size: 50px;
-  text-align: center;
-}
-.content .paragraph {
-  margin: 0 auto;
-  width: 60%;
-  font-size: 18px;
-  text-align: center;
-  line-height: 1.6em;
-}
-
 /* estilos custom con bootstrap */
 .btn-custom {
   background-color: #fbcff5;

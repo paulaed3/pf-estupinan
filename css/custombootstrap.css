@@ -15,23 +15,6 @@ body {
 }
 
 /* Variables */
-/* Content */
-.content {
-  margin-top: 80px;
-}
-.content .subtitle {
-  margin-bottom: 10px;
-  font-size: 50px;
-  text-align: center;
-}
-.content .paragraph {
-  margin: 0 auto;
-  width: 60%;
-  font-size: 18px;
-  text-align: center;
-  line-height: 1.6em;
-}
-
 /* estilos custom con bootstrap */
 .btn-custom {
   background-color: #fbcff5;
