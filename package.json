@@ -1,12 +1,12 @@
 {
-  "name": "entrega-2",
+  "name": "anikad-tienda",
   "version": "1.0.0",
-  "description": "",
+  "description": "proyecto acerca de una tienda virtual de ropa de segunda.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
+  "author": "paula e",
   "license": "ISC"
 }
